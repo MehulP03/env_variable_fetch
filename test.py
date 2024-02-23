@@ -1,3 +1,4 @@
 import os
-secrets = os.environ['MY_SECRET']
+print(os.environ)
+secrets = os.environ.get('MY_SECRET')
 print(secrets)
